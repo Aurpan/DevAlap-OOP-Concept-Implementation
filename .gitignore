@@ -1,0 +1,8 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/DevAlap_Abstraction/obj
+/DevAlap_OOP/.vs/DevAlap_OOP
+/DevAlap_OOP/bin/Debug/net8.0
+/DevAlap_OOP/obj
