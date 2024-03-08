@@ -1,8 +1,15 @@
 ﻿namespace DevAlap_Abstraction
 {
-    public class PaidUser: User
+    public class PaidUser : IUser
     {
-        public DateTime LastRenewal { get; set; }
-        public DateTime Expiration { get; set; }
+        public void GetContents()
+        {
+            Console.WriteLine("Contents for Paid Users!");
+        }
+
+        public void CancelSubscription() 
+        {
+
+        }
     }
 }
