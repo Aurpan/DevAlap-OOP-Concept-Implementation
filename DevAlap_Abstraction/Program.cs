@@ -1,4 +1,6 @@
-﻿namespace DevAlap_Abstraction
+﻿using DevAlap_Encapsulation;
+
+namespace DevAlap_Abstraction
 {
     internal class Program
     {
@@ -15,6 +17,10 @@
 
             userBasic.GetContents();
             userPaid.GetContents();
+
+            Employee emp = new Employee();
+
+            //emp.DoB = DateTime.Now;
 
         }
     }
