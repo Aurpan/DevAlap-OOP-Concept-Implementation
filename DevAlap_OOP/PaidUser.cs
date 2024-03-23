@@ -1,6 +1,4 @@
-﻿using System.Reflection.Metadata;
-
-namespace DevAlap_OOP
+﻿namespace DevAlap_OOP
 {
     public class PaidUser : User
     {
